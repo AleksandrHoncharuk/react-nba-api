@@ -1,0 +1,51 @@
+.team-players {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 8px;
+  padding: 10px;
+
+  .team-players-list-position {
+    text-align: start;
+  }
+
+  .back-btn {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(88, 85, 85);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
+
+  .back-btn:active {
+    background-color: rgb(182, 181, 181);
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  td,
+  th {
+    text-align: center;
+    padding: 8px;
+  }
+  tr {
+    p {
+      margin-top: 5px;
+      margin-left: 10px;
+      text-align: start;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+}

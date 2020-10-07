@@ -1,0 +1,47 @@
+.team-players {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.team-players .back-btn {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #585555;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.team-players .back-btn:active {
+  background-color: #b6b5b5;
+}
+
+.team-players table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.team-players td,
+.team-players th {
+  text-align: center;
+  padding: 8px;
+}
+
+.team-players tr p {
+  margin-top: 5px;
+  margin-left: 10px;
+  text-align: start;
+}
+
+.team-players tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/*# sourceMappingURL=TeamView.css.map */
